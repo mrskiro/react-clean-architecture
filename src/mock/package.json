@@ -1,0 +1,17 @@
+{
+  "name": "mock",
+  "version": "1.0.0",
+  "main": "app.ts",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "start": "yarn node --loader ts-node/esm app.ts"
+  },
+  "dependencies": {
+    "@types/express": "^4.17.12",
+    "@types/node": "^15.12.1",
+    "express": "^4.17.1",
+    "http": "^0.0.1-security",
+    "ts-node": "^10.0.0"
+  }
+}
